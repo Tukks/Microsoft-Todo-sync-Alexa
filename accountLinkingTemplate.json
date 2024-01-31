@@ -1,0 +1,18 @@
+{
+	"accountLinkingRequest": {
+		"skipOnEnablement": "false",
+		"type": "AUTH_CODE",
+		"authorizationUrl": "https://login.microsoftonline.com/common/oauth2/v2.0/authorize",
+		"accessTokenUrl": "https://login.microsoftonline.com/common/oauth2/v2.0/token",
+		"accessTokenScheme": "HTTP_BASIC",
+		"clientId": "CLIENT-ID",
+		"clientSecret": "CLIENT-SECRET",
+		"scopes": [
+			"Tasks.Read",
+			"Tasks.Read.Shared",
+			"Tasks.ReadWrite",
+			"Tasks.ReadWrite.Shared",
+			"User.Read", "offline_access"
+		]
+	}
+}
